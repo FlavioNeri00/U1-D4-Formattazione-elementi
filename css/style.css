@@ -1,0 +1,275 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-image: url(../img/sfondo.png);
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+}
+/* HEADER */
+
+header{
+    margin: 3em 40em 3em;
+    background-image: linear-gradient(356deg,  #036D88, #0099BB);
+    text-align: center;
+    box-shadow: 0 5px 5px;
+}
+
+header img{
+    margin: 2em;
+
+
+}
+
+header h2{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+ul{
+   list-style: none; 
+   padding: 2em;
+}
+
+ul li{
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 20px;
+}
+/* MAIN */
+main{
+    margin: 3em 40em 3em;
+    background-color: white;
+    box-shadow: 0px 0 7px;
+    font-size: 16px;
+    
+}
+
+span{
+    border: solid;
+    border-radius: 6px;
+    border: 0px;
+    border-color: #D2D3D5;
+    background-color: #E3E4E5;
+
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+main h1{
+    padding: 40px 30px;
+   font-weight: 600; 
+   font-size: 50px;
+   margin-bottom: 15px;
+}
+
+main p.author{
+    display: inline-block;
+    font-weight: 400;
+    color: grey;
+    padding-right: 30px;
+}
+
+.violet{
+    color: #A72271;
+}
+
+main p, i{
+    margin: 0px;
+    padding: 0px;
+    font-size: 23px;
+} 
+
+.fa-pen-square{
+    padding-left: 30px;
+}
+
+.intro{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.second-list{
+    padding-top: 5px;
+    font-size: 23px;
+}
+
+ul.second-list li{
+    list-style: disc; 
+    font-size: medium;
+    font-weight: 400;
+    color: black;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+ol{
+    padding-left: 30px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+ol li{
+    padding-bottom: 15px;
+}
+
+.css-style{
+    margin-bottom: 15px;
+}
+/* TABELLE */
+table{
+    margin: 5px 0 0 30px;
+    
+}
+
+table caption{
+    font-weight: 600;
+}
+table {
+    margin-inline: auto;
+    text-align: center;
+}
+
+table caption{
+    font-style: italic;
+}
+
+table thead{
+    background-color: #3D6ECC;
+}
+
+#year, #percentage, #browser{
+    padding: 30px;
+    color: white;
+    margin: 2px;
+    text-align: center;
+    width: 30px;
+    border-right: solid, white;
+    
+    
+}
+tr{
+    height: 60px;
+}
+
+tr:nth-of-type(even){
+    background-color: #F2F2F2;
+    
+}
+
+td{
+    vertical-align: middle;
+}
+
+hr{
+    background-color: #2A60CA;
+    text-align: center;
+    height: 1px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+a{
+    color: #0099CC;
+}
+
+iframe{
+    width: 60%;
+    margin-inline: 115px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/* FORM */
+.newsletter{
+    margin: 10px 30px;
+    border: solid;
+    background-color: #F2F2F2;
+    border: white;
+}
+
+.news{
+    margin-inline:  30px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.newsletter p{
+    margin-top: 3em;
+    margin-inline: 30px;
+
+}
+
+input{
+    margin-top: 4em;
+    margin-left: 30px;
+    margin-bottom: 2em;
+    width: 50%;
+    height: 40px;
+    font-size: 25px;
+    border-bottom: dotted;
+}
+
+button{
+    padding-left: 0;
+    width: 20%;
+    height: 40px;
+    background-color: #3165CA;
+    color: white;
+    font-size: 25px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+.articles{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 30px;
+}
+
+.validate{
+    margin: 10px 30px;
+    padding-top: 20px;
+    border: solid;
+    background-color: #F2F2F2;
+    border: white;
+    padding-bottom: 30px;
+}
+
+.anchor{
+    margin-left: 30px;
+    font-size: 25px;
+    color: #47A5C4;
+}
+
+.category{
+    margin-left: 30px;
+    margin-block: 5px;
+}
+
+.date{
+    text-align: end;
+    margin-bottom: 0px;
+    padding: 30px;
+}
+
+/* FOOTER */
+footer{
+    background-image: linear-gradient(356deg,  #293D3D, #035467);
+    margin: 3em 40em 3em;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    padding-top: 20px;
+    padding-inline: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.e-mail{
+    color: #FF00FF;
+}

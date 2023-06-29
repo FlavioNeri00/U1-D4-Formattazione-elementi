@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="first-div">
+      <header>
+        <div>
+          <img src="./img/logo.svg" alt="Logo-Epicode" />
+          <h2>EPICODE - IL BLOG DEI DEVELOPERS</h2>
+          <br />
+          <ul>
+            <li>&rArr; HOME &lArr;</li>
+            <li>&rArr; ARTICOLI &lArr;</li>
+            <li>&rArr; LAVORA CON NOI &lArr;</li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <main>
+      <h1>Come creare un template per i post</h1>
+      <i class="fas fa-pen-square"></i>
+      <p class="author">di Mario Rossi -</p>
+      <i class="fas fa-clock"></i>
+      <p class="author">pubblicato il 25-10-2020</p>
+      <br />
+      <div class="intro">
+        <p>
+          La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le
+          <strong class="violet">parti comuni da applicare a tutte le pagine</strong>
+        </p>
+      </div>
+      <ul class="second-list">
+        Le varie aree saranno quindi suddivise in:
+        <li>contenuti di intestazione del tag <span>&lt;header&gt;</span></li>
+        <li>Contentuti centrali variabili del tag <span>&lt;main&gt;</span></li>
+        <li>Contenuti di fine pagina comuni, da inserire nel tag <span>&lt;footer&gt;</span></li>
+      </ul>
+      <p class="intro">
+        Formattazione del codice<br />
+        Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da
+        <strong class="violet">selezionare con i CSS</strong>. Perciò i passi saranno:
+      </p>
+      <ol>
+        <li>Progettare su carta il markup finle, assegnndo ad ogni specifico testo il tag appropriato</li>
+        <li>Scrivere l'HTML dai tag esterni a quelli interni e dell'alto verso il basso</li>
+        <li>Applicare gli stili CSS</li>
+      </ol>
+      <p class="intro css-style">
+        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
+      </p>
+      <table>
+        <caption>
+          Diffusione dei CSS
+        </caption>
+        <thead>
+          <tr>
+            <td id="year">Anno</td>
+            <td id="percentage">% di utilizzo</td>
+            <td id="browser">Supporto browser</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2000</td>
+
+            <td>20%</td>
+
+            <td>17%</td>
+          </tr>
+          <tr>
+            <td class="grey">2002</td>
+            <td class="grey">35%</td>
+            <td class="grey">22%</td>
+          </tr>
+          <tr>
+            <td>2004</td>
+            <td>45%</td>
+            <td>42%</td>
+          </tr>
+          <tr>
+            <td class="grey">2008</td>
+            <td class="grey">80%</td>
+            <td class="grey">51%</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>100%</td>
+            <td>76%</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <p class="intro">
+        Un test di validazione potrà essere fatto tramite il <a href="#">tool online </a>dedicato allo scopo. Una volta
+        ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
+      </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/IjzdMvuzxDY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="newsletter">
+        <h2 class="news">NOVITÀ</h2>
+        <p>Vuoi rimanere aggiornto su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+        <input type="email" placeholder="Inserisci l'email" />
+        <button type="submit">Iscriviti!</button>
+      </div>
+      <h2 class="articles">ARTICOLI CORRELATI</h2>
+      <div class="validate">
+        <a href="#" class="anchor">Validare il codice HTML</a>
+        <p class="category"><i class="fas fa-tag"></i> Categoria: develop</p>
+        <p class="date"><i class="fas fa-calendar-alt"></i>Data: 18-9-2020</p>
+      </div>
+      <div class="validate">
+        <a href="#" class="anchor">Correggere la sintassi</a>
+        <p class="category"><i class="fas fa-tag"></i> Categoria: develop</p>
+        <p class="date"><i class="fas fa-calendar-alt"></i>Data: 16-9-2020</p>
+      </div>
+      <div class="validate">
+        <a href="#" class="anchor">Meno Kb nella pagina</a>
+        <p class="category"><i class="fas fa-tag"></i> Categoria: ottimizzazione</p>
+        <p class="date"><i class="fas fa-calendar-alt"></i>Data: 30-9-2020</p>
+      </div>
+      <br />
+    </main>
+    <footer>
+      <h3>Blog Epicode &copy;2021</h3>
+      <br />
+      <h3>
+        Testata online di Mario Rossi, registrato con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233
+        <a href="info@epicode.school" class="e-mail">info@epicode.school</a>
+      </h3>
+    </footer>
+  </body>
+</html>
